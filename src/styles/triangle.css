@@ -1,0 +1,39 @@
+.Triangle_Parent {
+    position: relative;
+    width: 300px;
+    height: 300px;
+    border: 4px solid #44474a;
+    border-radius: 50%;
+    margin: 50px auto;
+  }
+  
+  .item {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    /* background-color: blue; */
+    border-radius: 50%;
+  }
+  
+  .item1 {
+    /* top: 50%;
+    left: calc(50% - 100px); */
+
+    top: -5%;
+    left: calc(6% - 100px);
+  }
+  
+  .item2 {
+    /* top: calc(50% - 100px);
+    left: 50%; */
+    top: calc(28% - 100px);
+    left: 61%;
+  }
+  
+  .item3 {
+    /* top: calc(50% + 50px);
+    left: calc(50% + 50px); */
+    top: calc(37% + 50px);
+    left: calc(1% + 50px);
+  }
+  

@@ -1,0 +1,191 @@
+/* .site-layout-content {
+    min-height: 280px;
+    padding: 24px;
+  }
+  #components-layout-demo-top .logo {
+    float: left;
+    width: 120px;
+    height: 31px;
+    margin: 16px 24px 16px 0;
+    background: rgba(255, 255, 255, 0.3);
+  }
+  .ant-row-rtl #components-layout-demo-top .logo {
+    float: right;
+    margin: 16px 0 16px 24px;
+  } */
+
+
+/* rotating sphere css */
+/* 
+$col-bg: rgb(11, 11, 22);
+$col-border: rgb(222, 222, 22);
+$col-hover: rgb(22, 222, 222);
+
+@mixin on-hover () {
+  border: 1px dotted $col-hover;
+  transition: .666s border;
+}
+
+*,
+:before,
+:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: $col-bg;
+  overflow: hidden;
+}
+
+.sphere {
+  animation: spin 6.66s linear infinite;
+  border: 1px dotted $col-border;
+  border-radius: 50%;
+  height: 666px;
+  height: 66.6vmin;
+  margin: 666 / 2 + px auto;
+  margin: 50 - (66.6 / 2) + vmin auto;
+  position: relative;
+  transform-style: preserve-3d;
+  -ms-transform-style: none;
+  width: 666px;
+  width: 66.6vmin;
+}
+.sphere:hover {
+  @include on-hover;
+}
+.sphere::before,
+.sphere::after {
+  border: 1px dotted $col-border;
+  border-radius: 50%;
+  content: '';
+  height: 666px;
+  height: 66vmin;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 666px;
+  width: 66vmin;
+}
+.sphere:hover::before,
+.sphere:hover::after {
+  @include on-hover;
+}
+.sphere::before {
+  transform: rotateX(-66.6deg);
+}
+.sphere::after {
+  transform: rotateX(66.6deg);
+}
+
+@keyframes spin {
+  0% {
+    transform: rotateY(0deg) rotateX(0deg) rotateZ(0deg);
+  }
+  100% {
+    transform: rotateY(360deg) rotateX(360deg) rotateZ(360deg);
+  }
+}
+
+   */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   .site-layout-content {
+    min-height: 280px;
+    padding: 24px;
+  }
+  #components-layout-demo-top .logo {
+    float: left;
+    width: 120px;
+    height: 31px;
+    margin: 16px 24px 16px 0;
+    background: rgba(255, 255, 255, 0.3);
+  }
+  .ant-row-rtl #components-layout-demo-top .logo {
+    float: right;
+    margin: 16px 0 16px 24px;
+  }
+  
+  /* rotating sphere css */
+  .col-bg {
+    color: rgb(11, 11, 22);
+  }
+  .col-border {
+    color: rgb(222, 222, 22);
+  }
+  .col-hover {
+    color: rgb(22, 222, 222);
+  }
+  .sphere {
+    animation: spin 6.66s linear infinite;
+    border: 10px dotted rgb(72, 22, 222);
+    border-radius: 50%;
+    height: 666px;
+    height: 66.6vmin;
+    margin: 666 / 2 px auto;
+    margin: 50 - (66.6 / 2) vmin auto;
+    position: relative;
+    transform-style: preserve-3d;
+    -ms-transform-style: none;
+    width: 666px;
+    width: 66.6vmin;
+  }
+  
+  .sphere:hover {
+    border: 10px dotted rgb(22, 222, 222);
+    transition: 0.666s border;
+  }
+  
+  .sphere::before,
+  .sphere::after {
+    border: 10px dotted rgb(22, 75, 222);
+    border-radius: 50%;
+    content: '';
+    height: 666px;
+    height: 66vmin;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 666px;
+    width: 66vmin;
+  }
+  
+  .sphere:hover::before,
+  .sphere:hover::after {
+    border: 10px dotted rgb(22, 222, 222);
+    transition: 0.666s border;
+  }
+  
+  .sphere::before {
+    transform: rotateX(-66.6deg);
+  }
+  
+  .sphere::after {
+    transform: rotateX(66.6deg);
+  }
+  
+  @keyframes spin {
+    0% {
+      transform: rotateY(0deg) rotateX(0deg) rotateZ(0deg);
+    }
+    100% {
+      transform: rotateY(360deg) rotateX(360deg) rotateZ(360deg);
+    }
+  }
+  
