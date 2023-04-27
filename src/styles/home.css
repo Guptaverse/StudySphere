@@ -147,13 +147,16 @@ body {
   flex-direction: column;
   text-align: center;
   width: 12%;
-  margin: 0 1rem;
+  position: relative;
+  margin: 0 3rem;
 }
 
-.logo h3 {
+.logo h2 {
   margin: 5px 0;
   font-family: 'Poppins', sans-serif;
   font-family: 'Rubik', sans-serif;
+  position: absolute;
+  top: 6.5rem;
 }
 
 .search-bar {
@@ -218,14 +221,14 @@ body {
   border: 10px dotted rgb(72, 22, 222);
   border-radius: 50%;
   height: 666px;
-  height: 16.6vmin;
+  height: 31.6vmin;
   margin: 666 / 2 px auto;
   margin: 50 - (66.6 / 2) vmin auto;
   position: relative;
   transform-style: preserve-3d;
   -ms-transform-style: none;
   width: 666px;
-  width: 16.5vmin;
+  width: 31.5vmin;
 }
 
 .sphere:hover {
@@ -240,12 +243,12 @@ body {
   border-radius: 50%;
   content: '';
   height: 666px;
-  height: 12vmin;
+  height: 26vmin;
   left: 0;
   position: absolute;
   top: 0;
   width: 666px;
-  width: 12vmin;
+  width: 26vmin;
 }
 
 .sphere:hover::before,
