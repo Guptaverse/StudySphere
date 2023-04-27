@@ -25,7 +25,9 @@ const CreateBlog = () => {
                 {/* <button onClick={()=>{console.log(content)}}> see what is inside</button> */}        
             </div>
             {/* <EditorTool/>    */}
-            <Button type="primary" onClick={()=>{console.log(content)}} >Publish</Button>     
+            <Button type="primary" onClick={()=>{console.log(content);document.getElementById('postResult').innerHTML = content}} >Publish</Button>     
+
+            <div id='postResult'></div>
         </div>
     )
 }
