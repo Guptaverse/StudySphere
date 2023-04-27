@@ -54,14 +54,11 @@ const Home = () => {
           <Route path='/upload' element={<Upload/>}></Route>
           <Route path='/articles' element={<Articles/>}></Route>
           <Route path='/syllabus' element={<Syllabus/>}></Route>
-          <Route path='/search' element={<Search/>}></Route>
+          <Route path='/search/:name' element={<Search/>}></Route>
           <Route path='/input' element={<InputField/>}></Route>
           <Route path='/create' element={<CreateBlog/>}></Route>
           {/* <Route path='/circle' element={<TriangleButton/>}></Route> */}
         </Routes>
-
-
-
         </div>
       </Content>
       <Footer
