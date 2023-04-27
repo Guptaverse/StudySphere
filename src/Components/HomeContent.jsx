@@ -30,9 +30,8 @@ const HomeContent = () => {
       <div className="explanation">
 
       </div>
-      <div>
-      
-      <TriangleButton />
+      <div className='triangleContainer'>
+        <TriangleButton />
       </div>
     </div>
   )
