@@ -34,7 +34,7 @@ const CreateBlog = () => {
             {/* <EditorTool/>    */}
             <Button type="primary" onClick={add} >Publish</Button>     
 
-            <div id='postResult'></div>
+            <div id='postResult'>{content}</div>
         </div>
     )
 }
