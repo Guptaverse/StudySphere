@@ -6,7 +6,7 @@ import "../styles/triangle.css"
 
 const TriangleButton = () => {
   return (
-    <>
+    <div className='Triangle-Grandpa'>
       <div className='Triangle_Parent'>
         <div className="item item1">
           <CircleButtons  index = {0} />
@@ -24,7 +24,7 @@ const TriangleButton = () => {
       </div>
 
 
-    </>
+    </div>
   )
 }
 

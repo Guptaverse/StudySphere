@@ -1,6 +1,7 @@
 import React from 'react'
 import TriangleButton from './TriangleButton'
 import Searchbar from './Searchbar'
+import TriangleCard from './TriangleCard'
 
 const HomeContent = () => {
   return (
@@ -20,6 +21,7 @@ const HomeContent = () => {
       </div>
       <div className='triangleContainer'>
         <TriangleButton />
+        <TriangleCard />
       </div>
     </div>
   )
