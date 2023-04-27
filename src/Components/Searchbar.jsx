@@ -1,19 +1,20 @@
 import { Input, Space } from 'antd';
-import {useNavigate} from 'react-router-dom'
+import { useNavigate } from 'react-router-dom'
 const { Search } = Input;
 
 // const onSearch = (value) => console.log(value);
 const Searchbar = () => {
     const navigate = useNavigate();
-    function onSearch(){
+    function onSearch() {
         navigate("/search")
     }
-    return(
+    return (
+
+        <div className='search-bar'>
+            <Search size='large' placeholder="Engineering" onSearch={onSearch} enterButton />
+        </div>
 
 
-        <Search placeholder="Engineering" onSearch={onSearch} enterButton />
- 
-
-  )
+    )
 };
 export default Searchbar;
