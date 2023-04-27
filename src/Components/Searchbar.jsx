@@ -109,7 +109,7 @@ const Searchbar = () => {
     };
 
     return (
-        <div>
+        <div style={{width: "500px"}}>
             <Search
                 placeholder="Search"
                 value={searchText}
