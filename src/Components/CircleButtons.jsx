@@ -8,6 +8,7 @@ import img3 from "../assets/article.png"
 
 
 const CircleButtons = ({index}) => {
+    // Ahzam
     // const size = "700px";
     const navigate = useNavigate()
     var images = [img1,img2,img3]
