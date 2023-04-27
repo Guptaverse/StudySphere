@@ -139,6 +139,8 @@ body {
 
 .topSection {
   display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .logo {
@@ -218,7 +220,7 @@ body {
 
 .sphere {
   animation: spin 6.66s linear infinite;
-  border: 10px dotted rgb(72, 22, 222);
+  border: 10px dotted rgb(22, 222, 222);
   border-radius: 50%;
   height: 666px;
   height: 31.6vmin;
@@ -239,7 +241,7 @@ body {
 
 .sphere::before,
 .sphere::after {
-  border: 10px dotted rgb(22, 75, 222);
+  border: 10px dotted rgb(22, 222, 222);
   border-radius: 50%;
   content: '';
   height: 666px;
