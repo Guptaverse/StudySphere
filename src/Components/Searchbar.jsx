@@ -109,11 +109,13 @@ const Searchbar = () => {
     };
 
     return (
-        <div style={{width: "500px"}}>
+  <div style={{width: "500px", margin:"26px"}}>
             <Search
                 placeholder="Search"
+                size='large'
                 value={searchText}
                 onChange={(e) => handleSearch(e.target.value)}
+                style={{boxShadow: "rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px"}}
             />
             {
                 searchResults.length > 0 && (
