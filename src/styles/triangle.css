@@ -2,9 +2,13 @@
     position: relative;
     width: 300px;
     height: 300px;
-    border: 4px solid #44474a;
+    border: 5px solid #44474a;
     border-radius: 50%;
     margin: 50px auto;
+  }
+
+  .Triangle-Grandpa{
+    margin: 0 14rem;
   }
   
   .item {
@@ -36,4 +40,42 @@
     top: calc(37% + 50px);
     left: calc(1% + 50px);
   }
+
+  .triangleContainer {
+    display: flex;
+  }
+
+  .card {
+    width: 50%;
+    
+  }
+
+  .imgBox {
+    width: 120px;
+  }
+
+  .article {
+    display: flex;
+    justify-content: center;
+    width: 300px;
+  }
   
+.card-container {
+  display: flex;
+  border: 1px solid black;
+  margin: 10px;
+  border-radius: 12px;
+}
+
+  .card-container img {
+    width: 6em;
+    height: auto;
+    position: relative;
+    top: 3rem;
+    left: 1rem;
+  }
+
+  .cardLay{
+    display: flex;
+    justify-content: center;
+  }

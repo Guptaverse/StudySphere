@@ -8,7 +8,6 @@ import img3 from "../assets/article.png"
 
 
 const CircleButtons = ({index}) => {
-    // Ahzam
     // const size = "700px";
     const navigate = useNavigate()
     var images = [img1,img2,img3]
@@ -33,7 +32,7 @@ const CircleButtons = ({index}) => {
 
     return (
         <>
-            <button style={{backgroundColor:"white",fontSize:"10px",margin:"20px",padding:"30px",borderRadius:"50%"}} onClick={goTo}>
+            <button style={{backgroundColor:"white",fontSize:"10px",margin:"20px",padding:"30px",borderRadius:"50%", cursor:"pointer"}} onClick={goTo}>
                 <img src={images[index]} style={{height:"100px"} } alt={index}></img>
             </button>
             {/* <br></br> */}
