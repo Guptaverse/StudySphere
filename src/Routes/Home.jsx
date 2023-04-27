@@ -1,8 +1,17 @@
-import { Breadcrumb, Layout, Menu, theme } from 'antd';
+import {Layout, Menu, theme } from 'antd';
 import { Link } from 'react-router-dom';
 import '../styles/home.css'
-import TriangleButton from '../Components/TriangleButton';
-import Searchbar from '../Components/Searchbar';
+
+
+// routes
+import {Routes,Route} from 'react-router-dom'
+import Articles from './Articles'
+import Upload from './Upload'
+import Syllabus from './Syllabus'
+import Search from './Search'
+import InputField from '../Components/InputField';
+import HomeContent from '../Components/HomeContent';
+
 const { Header, Content, Footer } = Layout;
 
 const Home = () => {
@@ -14,7 +23,7 @@ const Home = () => {
       <Header>
         <div className="logo" />
         <Menu theme="dark" mode="horizontal" defaultSelectedKeys={['1']}>
-            <Menu.Item key="home" style={{backgroundColor:"#1677ff"}}>
+            <Menu.Item key="home" >
               <Link to="/">Home</Link>  
             </Menu.Item>
             <Menu.Item key="articles">
@@ -31,31 +40,25 @@ const Home = () => {
           padding: '0 50px',
         }}
       >
-        {/* <Breadcrumb
-          style={{
-            margin: '16px 0',
-          }}
-        >
-          <Breadcrumb.Item>Home</Breadcrumb.Item>
-          <Breadcrumb.Item>List</Breadcrumb.Item>
-          <Breadcrumb.Item>App</Breadcrumb.Item>
-        </Breadcrumb> */}
         <div
           className="site-layout-content"
           style={{
             background: colorBgContainer,
           }}
         >
-          {/* Content */}
-          
-          <div className='sphere'></div>
-          <Searchbar/><br></br>
-          <div className="explanation">
+        
 
-          </div>
-          <TriangleButton/>
-          {/* <TriangleButton/>
-          <TriangleButton/> */}
+        <Routes>
+          <Route path='/' element={<HomeContent/>}></Route>
+          <Route path='/upload' element={<Upload/>}></Route>
+          <Route path='/articles' element={<Articles/>}></Route>
+          <Route path='/syllabus' element={<Syllabus/>}></Route>
+          <Route path='/search' element={<Search/>}></Route>
+          <Route path='/input' element={<InputField/>}></Route>
+          {/* <Route path='/circle' element={<TriangleButton/>}></Route> */}
+        </Routes>
+
+
 
         </div>
       </Content>
