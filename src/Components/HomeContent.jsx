@@ -7,6 +7,7 @@ const HomeContent = () => {
     <div>
       <div>
         <div className='sphere'></div>
+        <h3>StudentSphere</h3>
       </div>
       <Searchbar />
       <br></br>

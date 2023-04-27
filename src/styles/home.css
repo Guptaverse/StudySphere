@@ -137,14 +137,14 @@ body {
     border: 10px dotted rgb(72, 22, 222);
     border-radius: 50%;
     height: 666px;
-    height: 66.6vmin;
+    height: 21.6vmin;
     margin: 666 / 2 px auto;
     margin: 50 - (66.6 / 2) vmin auto;
     position: relative;
     transform-style: preserve-3d;
     -ms-transform-style: none;
     width: 666px;
-    width: 66.6vmin;
+    width: 21.4vmin;
   }
   
   .sphere:hover {
@@ -158,12 +158,12 @@ body {
     border-radius: 50%;
     content: '';
     height: 666px;
-    height: 66vmin;
+    height: 16vmin;
     left: 0;
     position: absolute;
     top: 0;
     width: 666px;
-    width: 66vmin;
+    width: 16vmin;
   }
   
   .sphere:hover::before,
