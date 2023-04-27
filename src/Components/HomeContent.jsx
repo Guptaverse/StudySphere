@@ -5,7 +5,7 @@ import Searchbar from './Searchbar'
 const HomeContent = () => {
   return (
     <div>
-      <div>
+      <div className='logo'>
         <div className='sphere'></div>
         <h3>StudentSphere</h3>
       </div>
