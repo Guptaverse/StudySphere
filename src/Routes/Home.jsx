@@ -11,6 +11,7 @@ import Syllabus from './Syllabus'
 import Search from './Search'
 import InputField from '../Components/InputField';
 import HomeContent from '../Components/HomeContent';
+import CreateBlog from './CreateBlog';
 
 const { Header, Content, Footer } = Layout;
 
@@ -55,6 +56,7 @@ const Home = () => {
           <Route path='/syllabus' element={<Syllabus/>}></Route>
           <Route path='/search' element={<Search/>}></Route>
           <Route path='/input' element={<InputField/>}></Route>
+          <Route path='/create' element={<CreateBlog/>}></Route>
           {/* <Route path='/circle' element={<TriangleButton/>}></Route> */}
         </Routes>
 
