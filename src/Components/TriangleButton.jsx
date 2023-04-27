@@ -9,16 +9,13 @@ const TriangleButton = () => {
     <div className='Triangle-Grandpa'>
       <div className='Triangle_Parent'>
         <div className="item item1">
-          <CircleButtons  index = {0} />
-
+          <CircleButtons name="Upload"  index = {0} />
         </div>
         <div className="item item2">
-          <CircleButtons  index = {1} />
-
+          <CircleButtons name="Syllabus"  index = {1} />
         </div>
         <div className="item item3">
-          <CircleButtons  index = {2} />
-
+          <CircleButtons name="Article"  index = {2} />
         </div>
 
       </div>

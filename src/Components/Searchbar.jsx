@@ -109,17 +109,18 @@ const Searchbar = () => {
     };
 
     return (
-  <div style={{width: "500px", margin:"26px"}}>
+  <div style={{width: "900px", margin:"26px",position:'relative'}}>
             <Search
                 placeholder="Search"
                 size='large'
                 value={searchText}
                 onChange={(e) => handleSearch(e.target.value)}
-                style={{boxShadow: "rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px"}}
+                style={{boxShadow: "rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px",transform:'scale(1)'}}
             />
             {
                 searchResults.length > 0 && (
                     <List
+                        style={{position:'absolute',bottom:'-100%'}}
                         dataSource={searchResults}
                         renderItem={(item) => (
                             <Link to={`/search/${item}`}>
