@@ -30,7 +30,10 @@ const HomeContent = () => {
       <div className="explanation">
 
       </div>
+      <div>
+      
       <TriangleButton />
+      </div>
     </div>
   )
 }

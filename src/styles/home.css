@@ -104,7 +104,7 @@ body {
 
 
 
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&family=Rubik:wght@700&display=swap');
 
 .site-layout-content {
   min-height: 280px;
@@ -137,7 +137,7 @@ body {
   color: rgb(22, 222, 222);
 }
 
-.topSection{
+.topSection {
   display: flex;
 }
 
@@ -152,9 +152,11 @@ body {
 
 .logo h3 {
   margin: 5px 0;
+  font-family: 'Poppins', sans-serif;
+  font-family: 'Rubik', sans-serif;
 }
 
-.search-bar{
+.search-bar {
   width: 100%;
   margin: 1rem 3rem;
 }

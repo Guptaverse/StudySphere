@@ -67,6 +67,7 @@ const Home = () => {
       <Footer
         style={{
           textAlign: 'center',
+          backgroundColor:"#001529"
         }}
       >
         <span style={{color:"#1677ff",fontWeight:"bold"}}>Student-Sphere ©2023</span>
