@@ -1,12 +1,25 @@
 .Triangle_Parent {
-    position: relative;
-    width: 300px;
-    height: 300px;
-    border: 5px solid #44474a;
-    border-radius: 50%;
-    margin: 50px auto;
-  }
+  position: relative;
+  width: 300px;
+  height: 300px;
+  border: 5px solid #44474a;
+  border-radius: 50%;
+  margin: 50px auto;
+}
 
+.Triangle-Grandpa {
+  margin: 0 14rem;
+}
+
+.item {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  /* background-color: blue; */
+  border-radius: 50%;
+}
+
+<<<<<<< HEAD
   .Triangle-Grandpa{
     margin: 0 12em;
   }
@@ -21,63 +34,84 @@
   
   .item1 {
     /* top: 50%;
+=======
+.item1 {
+  /* top: 50%;
+>>>>>>> 52e893e66d88d058dc92f6c619b73ef15bc9ca71
     left: calc(50% - 100px); */
 
-    top: -5%;
-    left: calc(6% - 100px);
-  }
-  
-  .item2 {
-    /* top: calc(50% - 100px);
-    left: 50%; */
-    top: calc(28% - 100px);
-    left: 61%;
-  }
-  
-  .item3 {
-    /* top: calc(50% + 50px);
-    left: calc(50% + 50px); */
-    top: calc(37% + 50px);
-    left: calc(1% + 50px);
-  }
+  top: -5%;
+  left: calc(6% - 100px);
+}
 
+.item2 {
+  /* top: calc(50% - 100px);
+    left: 50%; */
+  top: calc(28% - 100px);
+  left: 61%;
+}
+
+.item3 {
+  /* top: calc(50% + 50px);
+    left: calc(50% + 50px); */
+  top: calc(37% + 50px);
+  left: calc(1% + 50px);
+}
+
+<<<<<<< HEAD
   .triangleContainer {
     display: flex;
     margin: 5em 0;
   }
+=======
+.triangleContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 7rem;
+}
 
-  .card {
-    width: 50%;
-    
-  }
+.card {
+  width: 50%;
 
-  .imgBox {
-    width: 120px;
-  }
+}
+>>>>>>> 52e893e66d88d058dc92f6c619b73ef15bc9ca71
 
-  .article {
-    display: flex;
-    justify-content: center;
-    width: 300px;
-  }
-  
+.imgBox {
+  width: 120px;
+}
+
+.article {
+  display: flex;
+  justify-content: center;
+}
+
 .card-container {
   display: flex;
   /* border: 1px solid black; */
   margin: 10px;
+  width: 450px;
+  background-color: white;
   border-radius: 12px;
   box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
 }
 
-  .card-container img {
-    width: 6em;
-    height: auto;
-    position: relative;
-    top: 3rem;
-    left: 1rem;
-  }
+.card-container img {
+  width: 6em;
+  height: auto;
+  position: relative;
+  top: 3rem;
+  left: 1rem;
+}
 
-  .cardLay{
-    display: flex;
-    justify-content: center;
-  }
+.cardLay {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 30px;
+  /* border-top: 2px solid rgba(0, 0, 0, 0.05) ;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.05) ;
+  border-left: none;
+  border-right: none; */
+  /* box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px, rgb(209, 213, 219) 0px 0px 0px 1px inset; */
+  background-image: url('https://softr-prod.imgix.net/applications/8f7af9fb-a550-425d-b327-48195c193a5f/assets/9e6de3f8-c194-416e-a56b-c526ab8c22a3.svg');
+}

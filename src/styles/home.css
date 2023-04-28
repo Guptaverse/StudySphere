@@ -108,7 +108,11 @@ body {
 
 .site-layout-content {
   min-height: 280px;
-  padding: 24px;
+  padding: 24px 0px;
+  background: white;
+  background-image: url('./pattern2.jpeg');
+  background-repeat: no-repeat;
+  
 }
 
 #components-layout-demo-top .logo {
