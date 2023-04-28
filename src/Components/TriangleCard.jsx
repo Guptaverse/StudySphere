@@ -13,7 +13,7 @@ export default function TriangleCard() {
                     </div>
                     <div className='card'>
                         <h3>Upload</h3>
-                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cum eum quis veniam eius quibusdam architecto!</p>
+                        <p>Upload Notes, Syllabus, E-books and other study material.</p>
                     </div>
                 </div>
                 <div className='card-container'>
@@ -22,7 +22,7 @@ export default function TriangleCard() {
                     </div>
                     <div className='card'>
                         <h3>Syllabus</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit, quod? Labore, perspiciatis! Quidem, nobis cupiditate!</p>
+                        <p>Check out Syllabus of different subjects according to your semesters.</p>
                     </div>
                 </div>
                 <div className='card-container article'>
@@ -31,7 +31,7 @@ export default function TriangleCard() {
                     </div>
                     <div className='card'>
                         <h3>Articles</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente neque vitae ea error explicabo consequatur.</p>
+                        <p>Upload and View articles. Write educational blogs</p>
                     </div>
                 </div>
             </div>
